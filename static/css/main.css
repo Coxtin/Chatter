@@ -1,0 +1,42 @@
+body{
+    font-family: "Playwrite IN";
+}
+
+.container{
+    margin: 150px 250px 150px 250px;
+    justify-content: center;
+    text-align: center;
+    border:2px solid black;
+    border-radius: 50px;
+    background-color: rgba(255,255,255,0.2);
+}
+
+.titlu{
+    text-align: center;
+    display: flex;
+    justify-content:center;
+    padding-top : 10px;
+    font-size:45px;
+    font-weight:bold;
+}
+
+.descriere{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color:red;
+    padding:10px;   
+    border: 1px solid black;
+    border-radius: 40px;
+    transition: 1s;
+}
+
+a:hover{
+    color:crimson;
+    background-color: beige;
+    transition: 1s;
+}

@@ -1,0 +1,56 @@
+.card-container {
+    margin-top:100px;
+    display: flex;
+    flex-direction: column; 
+    gap: 30px;
+    justify-content: center;
+    padding: 20px;
+    width: 90%;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 0;
+}
+
+.card {
+    display: flex; 
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: solid red;
+    border-radius: 50px;
+    padding: 20px;
+    width: 70%;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.poza {
+    flex: 0 0 150px; 
+    height: 150px; 
+    border: solid black;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px; 
+}
+
+.poza img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.mesaj {
+    flex: 1; 
+    text-align: left;
+}
+
+.mesaj h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.mesaj p {
+    margin: 5px 0 0 0;
+    font-size: 16px;
+    color: #333;
+}

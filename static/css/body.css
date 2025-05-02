@@ -1,0 +1,5 @@
+body{
+    background: linear-gradient(to top right, orange, violet);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
