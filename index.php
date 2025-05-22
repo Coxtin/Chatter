@@ -23,8 +23,5 @@
         <br><br>
         <a href="login.php">Conectează-te</a>
         <br><br>
-        <a href="test.bat" download="newname.bat">
-        <img src="static/images/img6.png" alt="alt text">
-        </a>
     </div>
 </div>
